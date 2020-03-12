@@ -15,7 +15,7 @@ root = Path(__file__).absolute().parent
 
 # GITHUB CONF
 # Link for your config repo
-GITHUB_URL = ''
+GITHUB_URL = 'https://github.com/ChrisKader/HP-Pavillion-15-dk0056nr-Hackintosh'
 GITHUB_DESCRIPTION = 'Configuration for HP 15-dk0056nr'
 GITHUB_ACCESS_TOKEN = ''
 
