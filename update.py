@@ -15,8 +15,8 @@ root = Path(__file__).absolute().parent
 
 # GITHUB CONF
 # Link for your config repo
-GITHUB_URL = 'https://github.com/tctien342/Dell-Inspiron-7591-Hackintosh'
-GITHUB_DESCRIPTION = 'Configuration for Dell Inspiron 759x'
+GITHUB_URL = ''
+GITHUB_DESCRIPTION = 'Configuration for HP 15-dk0056nr'
 GITHUB_ACCESS_TOKEN = ''
 
 # BUILD CONF
@@ -31,7 +31,7 @@ KEXT_PIORITY = {
     'VoodooI2C.kext': 40, 'VoodooI2CHID.kext': 50,
     'CPUFriend.kext': 21, 'CPUFriendDataProvider.kext': 22,
 }
-BUILD_PREFIX = 'INSPIRON-759x'
+BUILD_PREFIX = 'HPQOEM-85FC    '
 SHIPPED_FOLDER = [
     'PostInstall'
 ]

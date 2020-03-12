@@ -2,12 +2,13 @@
  * Starting with macOS 10.15 Ambient Light Sensor presence is required for backlight functioning.
  * Here we create an Ambient Light Sensor ACPI Device, which can be used by SMCLightSensor kext
  * to report either dummy (when no device is present) or valid values through SMC interface.
+* Updated for HP Pavillion 15 Gaming Laptop
  */
-DefinitionBlock ("", "SSDT", 2, "ACDT", "ALS0", 0x00000000)
+DefinitionBlock ("", "SSDT", 2, "HPQOEM", "ALSE", 0x00000000)
 {
     Scope (_SB)
     {
-        Device (ALS0)
+        Device (ALSE)
         {
             Name (_HID, "ACPI0008" /* Ambient Light Sensor Device */)  // _HID: Hardware ID
             Name (_CID, "smc-als")  // _CID: Compatible ID
